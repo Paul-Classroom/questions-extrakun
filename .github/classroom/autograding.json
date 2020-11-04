@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Q1",
+      "setup": "npm install",
+      "run": "node ./q1/q1.js",
+      "input": "2\r\n3",
+      "output": "5",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Q2",
+      "setup": "npm install",
+      "run": "node ./q2/q2.js",
+      "input": "3\r\n6\r\n4",
+      "output": "6",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
