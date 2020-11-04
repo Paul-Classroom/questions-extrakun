@@ -12,7 +12,10 @@ const prompt = (function() {
     }
   })();
   return async message => {
-    console.log(message);
+    if (message) {
+         console.log(message);
+    }
+ 
     return (await getLineGen.next()).value;
   };
 })();
